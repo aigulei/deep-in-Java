@@ -27,5 +27,6 @@ public class ModuleReflectionDemo {
 		moduleDescriptor.exports().stream().forEach(exports ->{
 			System.out.printf("exports包名称%s, targets:%s\n",exports.source(),exports.targets());
 		});
+		System.out.println("hello");
 	}
 }
