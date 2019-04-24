@@ -38,5 +38,6 @@
   <modules>
     <module>java9</module>
     <module>collections</module>
+    <module>thread</module>
   </modules>
 </project>
